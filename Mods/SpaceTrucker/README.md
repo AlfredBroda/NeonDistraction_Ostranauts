@@ -8,6 +8,8 @@ Known Issues:
 
 Spawn Codes:
 ```
+spawn AllSpaceTruckerItems
+
 spawn ItmSpaceTruckerCamisoleWeber_S01_B02_C01
 spawn ItmSpaceTruckerCamisoleWeber_S01_B01_C01
 ```

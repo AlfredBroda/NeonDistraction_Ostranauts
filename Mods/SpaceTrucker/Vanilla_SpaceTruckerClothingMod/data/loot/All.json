@@ -1,0 +1,11 @@
+[
+    {
+    "strName": "AllSpaceTruckerItems", 
+    "aCOs": [
+        "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01=1.0x1",
+        "ItmSpaceTruckerCamisoleWeber_S01_B02_C01=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  }
+]
