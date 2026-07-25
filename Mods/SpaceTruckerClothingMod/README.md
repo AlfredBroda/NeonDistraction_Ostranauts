@@ -1,5 +1,9 @@
 # Space Trucker Clothing Mod
-Based on Charlie Martin's Space Trucker Loading Screen
+**Clothing Assets that mimic the concept art Space Trucker by Charlie Martin.** 
+
+Known Issues:
++ New Sock and Boot body slots don't exclude vanilla items like Shoes etc
++ Crew2 Body Slots and Kiosk item spawns are overwritten.
 
 <table>
 <tr>
