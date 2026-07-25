@@ -1,11 +1,11 @@
-# NeonDistraction_Ostranauts
-Mods and Mod Tools for Ostranauts
+# Space Trucker Clothing Mod
+Based on Charlie Martin's Space Trucker Loading Screen
 
 <table>
 <tr>
 <td><picture>
   <img alt="Item Icon"
-       src="Mods/SpaceTruckerClothingMod/images/ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png"
+       src="images/ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png"
        width="128"
        height="128"
        style="image-rendering: pixelated;" >
@@ -15,7 +15,7 @@ Mods and Mod Tools for Ostranauts
 <tr>
 <td><picture>
   <img alt="Item Icon"
-       src="Mods/SpaceTruckerClothingMod/images/ItmSpaceTruckerHatWarriors_S01_B00_C01.png"
+       src="images/ItmSpaceTruckerHatWarriors_S01_B00_C01.png"
        width="128"
        height="128"
        style="image-rendering: pixelated;" >
