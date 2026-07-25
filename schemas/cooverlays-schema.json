@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for cooverlays",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "strName": {
+        "type": "string"
+      },
+      "strNameFriendly": {
+        "type": "string"
+      },
+      "strDesc": {
+        "type": "string"
+      },
+      "strImg": {
+        "type": "string"
+      },
+      "strImgNorm": {
+        "type": "string"
+      },
+      "strImgDamaged": {
+        "type": "string"
+      },
+      "strPortraitImg": {
+        "type": "string"
+      },
+      "strCOBase": {
+        "type": "string"
+      },
+      "strCondLoot": {
+        "type": "string"
+      },
+      "mapSlotEffects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "mapModeSwitches": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "strName",
+      "strNameFriendly",
+      "strImg",
+      "strImgNorm",
+      "strPortraitImg",
+      "strCOBase",
+      "strCondLoot",
+      "mapSlotEffects"
+    ]
+  }
+}

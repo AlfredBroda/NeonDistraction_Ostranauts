@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "strName": {
+        "type": "string"
+      },
+      "strMixerName": {
+        "type": "string"
+      },
+      "strClipSteady": {
+        "type": "string"
+      },
+      "strClipTrans": {
+        "type": "string"
+      },
+      "strFalloffCurve": {
+        "type": "string"
+      },
+      "strLowPassCurve": {
+        "type": "string"
+      },
+      "fLoPassFreq": {
+        "type": "number"
+      },
+      "fLoPassFreqOccluded": {
+        "type": "number"
+      },
+      "fMinDistance": {
+        "type": "number"
+      },
+      "fMaxDistance": {
+        "type": "number"
+      },
+      "fSpatialBlend": {
+        "type": "number"
+      },
+      "fSteadyDelay": {
+        "type": "number"
+      },
+      "fTransDuration": {
+        "type": "number"
+      },
+      "fVolumeSteady": {
+        "type": "number"
+      },
+      "fVolumeTrans": {
+        "type": "number"
+      },
+      "fVolumePickup": {
+        "type": "number"
+      },
+      "strClipPickup": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "strName",
+      "strMixerName",
+      "fSpatialBlend",
+      "fVolumeSteady"
+    ]
+  }
+}
