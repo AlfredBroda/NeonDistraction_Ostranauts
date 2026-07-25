@@ -17,8 +17,7 @@ spawn ItmSpaceTruckerCamisoleWeber_S01_B01_C01
 <td><picture>
   <img alt="Item Icon"
        src="Vanilla_SpaceTruckerClothingMod\images\paperdoll\clothing\portSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png"
-       width="128"
-       height="128"
+       height=100
        style="image-rendering: pixelated;" >
 </picture></td>
 <td>"aCOs": [
@@ -31,8 +30,7 @@ spawn ItmSpaceTruckerCamisoleWeber_S01_B01_C01
 <td><picture>
   <img alt="Item Icon"
        src="Vanilla_SpaceTruckerClothingMod\images\paperdoll\clothing\portSpaceTruckerHatWarriors_S01_B00_C01.png"
-       width="128"
-       height="128"
+       height=100
        style="image-rendering: pixelated;" >
 </picture></td>
 <td>List Effects</td>
