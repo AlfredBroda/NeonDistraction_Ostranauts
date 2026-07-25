@@ -43,7 +43,7 @@
     "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerCamisoleWeber_S01_B02_C01",
     "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
     "mapSlotEffects" : [
-      "shirt_in","BodySpaceTruckerCamisoleWeber",
+      "shirt_in","BodySpaceTruckerCamisoleWeber_Small",
       "heldL","HeldItmDefaultSoftL",
       "heldR","HeldItmDefaultSoftR"
     ]
@@ -51,7 +51,7 @@
   {
     "strName" : "ItmSpaceTruckerCamisoleWeber_S01_B01_C01",
     "strNameShort" : "Tank Top: Hooch Burgundy (Size Large)",
-    "strItemDef" : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strItemDef" : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01", // Still pointing to the other one for now
     "strDesc" : "A Weber branded lightweight, body-hugging tank top.\n\nHooch Burgundy became a popular spacer's choice, named after the alarming tint of illicitly distilled spirits using standard engineering room facilities.",
     "strNameFriendly" : "Tank Top: Hooch Burgundy (Size Large)",
     "strType"    : "Item",
@@ -88,7 +88,7 @@
     "aUpdateCommands" : [
       "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
     ],
-    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerCamisoleWeber_S01_B01_C01",
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerCamisoleWeber_S01_B02_C01",
     "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
     "mapSlotEffects" : [
       "shirt_in","BodySpaceTruckerCamisoleWeber_Large",
