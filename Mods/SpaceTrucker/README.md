@@ -1,6 +1,6 @@
 # Space Trucker Clothing Mod
 **Clothing Assets that mimic the concept art Space Trucker by Charlie Martin.** 
-[Download Zipped](https://download-directory.github.io/?url=https://github.com/Kor-ok/NeonDistractionOstranauts/tree/main/Mods/SpaceTruckerClothingMod)
+[Download Zipped](download-directory.github.io?url=https://github.com/Kor-ok/NeonDistraction_Ostranauts/tree/main/Mods/SpaceTruckerClothingMod)
 
 Known Issues:
 + New Sock and Boot body slots don't exclude vanilla items like Shoes etc
