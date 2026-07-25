@@ -10,7 +10,7 @@ Known Issues:
 <tr>
 <td><picture>
   <img alt="Item Icon"
-       src="images/ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png"
+       src="Vanilla_SpaceTruckerClothingMod/images/ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png"
        width="128"
        height="128"
        style="image-rendering: pixelated;" >
@@ -20,7 +20,7 @@ Known Issues:
 <tr>
 <td><picture>
   <img alt="Item Icon"
-       src="images/ItmSpaceTruckerHatWarriors_S01_B00_C01.png"
+       src="Vanilla_SpaceTruckerClothingMod/images/ItmSpaceTruckerHatWarriors_S01_B00_C01.png"
        width="128"
        height="128"
        style="image-rendering: pixelated;" >
