@@ -1,0 +1,65 @@
+[
+    {
+    "strName" : "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
+    "strNameShort" : "Headphones",
+    "strItemDef" : "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
+    "strDesc" : "Ayotimiwa Corp tactical headset originally distributed to Port Authority traffic controllers.\n\nNo longer manufactured, but still in circulation.",
+    "strNameFriendly" : "Headphones",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 1,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem",
+      "GUISpaceTruckerHeadphones", // search GUINavStation GUIComputer
+      "ACTSpaceTruckerHeadphones"
+    ],
+    "aStartingConds" : [
+      "IsAyotimiwa=1.0x1", // search IsComputer IsPDA IsPairable
+      "IsRigid=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsClippable=1.0x1",
+      "IsTechnology=1.0x1",
+      "IsCategoryElectronics=1.0x1",
+      "StatMass=1.0x1.0",
+      "StatBasePrice=1.0x235.0",
+      "StatDamageMax=1.0x7",
+      "StatDismantleProgressMax=1.0x10",
+      "StatArmorBlunt=1.0x1.0",
+      "StatArmorCut=1.0x1.5"
+      // "IsLightSource=1.0x1" Apply when worn?
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefaultFragile",
+      "HackPDA","ItmWristPDAHackPDA"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTHelmet02Damage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : [
+    //   "Panel A", "NavStation",
+    //   "NavModConfig","NavModConfig",
+    //   "Panel Right", "DockSys",
+    //   "Panel Computer", "Computer",
+    //   "PDANAV", "PDANAV",
+    //   "PDA NavLink", "PDA NavLink",
+    //   "Computer", "Computer",
+    //   "PDA Home", "PDA Home",
+    //   "Electrical"
+        "Headphones_Key", "Headphones_Value"
+    ],
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
+    "strAudioEmitter" : "ExperimentHeadphones",
+    "mapSlotEffects" : [
+      "head_out","BodySpaceTruckerHeadphonesAyotimiwa",
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : null
+  }
+]

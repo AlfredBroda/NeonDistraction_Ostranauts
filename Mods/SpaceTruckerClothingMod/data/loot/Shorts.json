@@ -1,0 +1,48 @@
+[
+  {
+    "strName": "ItmSpaceTruckerShortsHughes_S01_B02_C01",
+    "aCOs": ["ItmSpaceTruckerShortsHughes_S01_B02_C01=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "COND_SpaceTruckerShortsHughes_Apply",
+    "aCOs": [
+      "StatBodyInsulation=1.0x0.1",
+      "StatSafeTempMax=1.0x2",
+      "StatSafeTempMin=1.0x3",
+      "IsWearingPants=1.0x1",
+      "StatSleepComfort=1.0x0.1",
+      "StatHygieneRate=1.0x0.1",
+      "-StatFatigueCoeff=1.0x0.1",
+      "-StatEncumbrance=1.0x0.1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "COND_SpaceTruckerShortsHughes_Remove",
+    "aCOs": [
+      "-StatBodyInsulation=1.0x0.1",
+      "-StatSafeTempMax=1.0x2",
+      "-StatSafeTempMin=1.0x3",
+      "-IsWearingPants=1.0x1",
+      "-StatSleepComfort=1.0x0.1",
+      "-StatHygieneRate=1.0x0.1",
+      "StatFatigueCoeff=1.0x0.1",
+      "StatEncumbrance=1.0x0.1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "ItmPocketsShortsClipx1Cargox2Hipx2",
+    "aCOs": [
+      "PocketShortsHip01=1x2",
+      "PocketShortsCargo01=1x2",
+      "PocketShortsClipPoint01=1x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  }
+]

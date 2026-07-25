@@ -1,0 +1,27 @@
+[
+  {
+    "strName" : "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
+    "strImg"  : "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
+    "strImgNorm"  : "ItmSpaceTruckerHeadphonesAyotimiwa_n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDefault",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    // "aLights"        : [
+    //   "Headphones1x1Green"
+    // ],
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  }
+]

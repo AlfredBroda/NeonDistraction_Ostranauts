@@ -1,0 +1,46 @@
+[
+  {
+    "strName" : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strImg"  : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strImgNorm"  : "ItmSpaceTruckerCamisoleWeber_n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDefault",
+    "fZScale"  : 0.1,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmSpaceTruckerCamisoleWeber_S01_B01_C01",
+    "strImg"  : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01", // No separate item sprite
+    "strImgNorm"  : "ItmSpaceTruckerCamisoleWeber_n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDefault",
+    "fZScale"  : 0.1,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  }
+]

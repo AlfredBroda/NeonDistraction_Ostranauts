@@ -1,0 +1,53 @@
+[
+  {
+    "strName" : "Simple Conditions",
+    "aValues" : [
+		// [strName], [strNameFriendly], [strDesc], [nDisplaySelf], [nDisplayOther], [strColor], [bInvert]
+      
+      "IsHughes","Hughes","[us] [is] a Hughes Spacecraft brand item.","2","2","Neutral","false",
+      
+    // Project New Skins compatibility conditions
+    
+        "IsNewSkin","New Skin Item","[us] is an New Skin Modded Item.","0","0","Neutral","false",
+        "IsNewSkinLoaded","New Skin Item","[us] is an New Skin Modded Item.","0","0","Neutral","false",
+        "HasDisplacer","Has Displacer","[us] can be Displaced","0","0","Neutral","false",
+        "IsDisplaced","Is displaced","[us] is displaced.","0","0","Neutral","false",
+        "HasZipper","Has a zipper","[us] can be Unzipped","0","0","Neutral","false",
+        "IsUnzipped","Is unzipped","[us] is unzipped","0","0","Neutral","false",
+        "HasTopDisplacer","Top part can be displaced","Top part can be displaced","0","0","Neutral","false",
+        "HasBottomDisplacer","Bottom part can be displaced","Bottom part can be displaced","0","0","Neutral","false",
+        "IsDress","Is a dress","[us] is a dress","0","0","Neutral","false",
+        "IsNSBra","Bra","[us] bra to cover breast, please hide it.","0","0","Neutral","false",
+        "IsNSUnderwear","Underwear","[us] is underwear to cover genitals, please hide it.","0","0","Neutral","false",
+        "IsNSKinky","Kinky","[us] is naturally Kinky.","0","0","Neutral","false",
+
+        "IsNSLBreastCovered","LBreast","[us] covered left Breast.","0","0","Good","false",
+        "IsNSLBreastVisible","LBreast","[us] should be visible.","0","0","Good","false",
+        "IsNSRBreastCovered","Rbreast","[us] covered right Breast.","0","0","Good","false",
+        "IsNSRBreastVisible","Rbreast","[us] should be visible.","0","0","Good","false",
+        
+        "IsNSBreast","Breast","[us] are breasts, please hide it.","0","0","Neutral","false",
+        "IsNSBreastFlat","BreastFlat","[us] is flat.","0","0","Neutral","false",
+        "IsNSBreastSmall","BreastSmall","[us] is small.","0","0","Neutral","false",
+        "IsNSBreastMed","BreastMed","[us] is medium.","0","0","Neutral","false",
+        "IsNSBreastBig","BreastBig","[us] is Big.","0","0","Neutral","false",
+
+        "IsNSGenitals","Genital","[us] are genitals, please hide it.","0","0","Neutral","false",
+        "IsNSGenitalsVisible","GenitalsVis","[us]  genitals should be visible.","0","0","Good","false",
+
+        "IsNSShaft","Shaft","[us] is a shaft, please hide it.","0","0","Neutral","false",
+        "IsNSGenitalsSmall","GenitalsSmall","[us] is small.","0","0","Neutral","false",
+        "IsNSGenitalsMed","GenitalsMed","[us] is medium.","0","0","Neutral","false",
+        "IsNSGenitalsBig","GenitalsBig","[us] is Big.","0","0","Neutral","false",
+        "IsNSBall","Balls","[us] are a pair of balls, please hide them.","0","0","Neutral","false",
+
+        "IsBodyNewSkinA","BodyNewSkinA","[us] is a New Skin Body A.","0","0","Neutral","false",
+        "IsBodyNewSkinB","BodyNewSkinB","[us] is a New Skin Body B.","0","0","Neutral","false",
+        "IsBodyNewSkinC","BodyNewSkinC","[us] is a New Skin Body C.","0","0","Neutral","false",
+        "IsRacialNewSkin","RacialNewSkin","[us] is a New Skin Racial Body.","0","0","Neutral","false",
+        "IsNSBreastSizeMatters","IsNSBreastSizeMatters","[us] breast size matters.","0","0","Neutral","false",
+        "IsNSGenitalsSizeMatters","IsNSGenitalsSizeMatters","[us] genital Size matters.","0","0","Neutral","false",
+        "IsNSBodyTypeMatters","IsNSBodyTypeMatters","[us] body type matters.","0","0","Neutral","false"
+    ]
+  }
+]

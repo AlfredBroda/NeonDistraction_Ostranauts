@@ -1,0 +1,29 @@
+[
+  {
+    "strName": "SLOT_SpaceTruckerSocksCompression",
+    "strTitle": "Wear",
+    "strDesc": "[us] puts on [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerSocksCompression_Apply",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName": "UNSLOT_SpaceTruckerSocksCompression",
+    "strDesc": "[us] is unslotted from [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerSocksCompression_Remove",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  }
+]

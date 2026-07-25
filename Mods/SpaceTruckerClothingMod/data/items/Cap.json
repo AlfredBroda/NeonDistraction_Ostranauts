@@ -1,0 +1,24 @@
+[
+  {
+    "strName" : "ItmSpaceTruckerHatWarriors_S01_B00_C01",
+    "strImg"  : "ItmSpaceTruckerHatWarriors_S01_B00_C01",
+    "strImgNorm"  : "ItmSpaceTruckerHat_n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDefault",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  }
+]

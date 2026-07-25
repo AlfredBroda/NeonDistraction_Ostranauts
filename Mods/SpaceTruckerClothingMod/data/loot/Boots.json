@@ -1,0 +1,77 @@
+[
+  {
+    "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+    "aCOs": ["ItmSpaceTruckerBootKompart_S01_B02_C01_L=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+    "aCOs": ["ItmSpaceTruckerBootKompart_S01_B02_C01_R=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSpaceTruckerBootKompart",
+    "aCOs": [
+      "ItmSpaceTruckerBootKompart_S01_B02_C01_L=1.0x1", 
+      "ItmSpaceTruckerBootKompart_S01_B02_C01_R=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "COND_SpaceTruckerBootKompart_Apply",
+    "aCOs": [
+        "StatBodyInsulation=1.0x0.2", 
+        "StatThreat=1.0x6",
+        "-IsBarefoot=1.0x1",
+        "-StatSafeTempMin=1.0x0.5",
+        "StatMovSpeedPenalty=1.0x0.05",
+        "ThreshStatGrav=1.0x0.1",
+        "-ThreshStatEncumbrance=1.0x0.1",
+        "ThreshStatSecurity=1.0x0.2", 
+        "ThreshStatEsteem=1.0x0.3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "COND_SpaceTruckerBootKompart_Remove",
+    "aCOs": [
+        "-StatBodyInsulation=1.0x0.2", 
+        "-StatThreat=1.0x6",
+        "IsBarefoot=1.0x1",
+        "StatSafeTempMin=1.0x0.5",
+        "-StatMovSpeedPenalty=1.0x0.05",
+        "-ThreshStatGrav=1.0x0.1",
+        "ThreshStatEncumbrance=1.0x0.1",
+        "-ThreshStatSecurity=1.0x0.2", 
+        "-ThreshStatEsteem=1.0x0.3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "COND_SpaceTruckerBootKompartWrong_Apply",
+    "aCOs": [
+        "StatBodyInsulation=1.0x0.2", 
+        "-StatThreat=1.0x6",
+        "-IsBarefoot=1.0x1",
+        "IsImproperFootwear=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "COND_SpaceTruckerBootKompartWrong_Remove",
+    "aCOs": [
+        "-StatBodyInsulation=1.0x0.2", 
+        "StatThreat=1.0x6",
+        "IsBarefoot=1.0x1",
+        "-IsImproperFootwear=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  }
+]

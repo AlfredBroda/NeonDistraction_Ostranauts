@@ -1,0 +1,28 @@
+[
+  {
+    "strName": "SLOT_SpaceTruckerShortsHughes",
+    "strDesc": "[us] is worn on [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerShortsHughes_Apply",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName": "UNSLOT_SpaceTruckerShortsHughes",
+    "strDesc": "[us] is removed from [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerShortsHughes_Remove",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  }
+]

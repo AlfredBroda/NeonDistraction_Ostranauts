@@ -1,0 +1,60 @@
+[
+  {
+    "strName" : "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+    "strImg"  : "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+    "strImgNorm"  : "ItmSpaceTruckerBootKompart_L_n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDefault",
+    // "nDmgMode": 3,
+    // "fDmgCut": 1.0,
+    // "fDmgTrim": 1.0,
+    // "fDmgIntensity": 1.0,
+    // "fDmgComplexity": 1.0,
+    // "bLerp": true,
+    // "bSinew": true,
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+    {
+    "strName" : "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+    "strImg"  : "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+    "strImgNorm"  : "ItmSpaceTruckerBootKompart_R_n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDefault",
+    // "nDmgMode": 3,
+    // "fDmgCut": 1.0,
+    // "fDmgTrim": 1.0,
+    // "fDmgIntensity": 1.0,
+    // "fDmgComplexity": 1.0,
+    // "bLerp": true,
+    // "bSinew": true,
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  }
+]

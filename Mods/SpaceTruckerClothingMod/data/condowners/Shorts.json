@@ -1,0 +1,135 @@
+[
+  {
+    "strName": "ItmSpaceTruckerShortsHughes_S01_B02_C01",
+    "strNameShort": "Cargo Shorts",
+    "strItemDef": "ItmSpaceTruckerShortsHughes_S01_B02_C01",
+    "strDesc": "Hughes Spacecraft branded, practical cargo shorts.\n\nOlder resupply missions for luxury holiday cruises to the gas giants experienced hazardous high temperature working environments in cramped conditions. It became a worker's tradition to recut company gear to accommodate, which then corporate subsumed into their officially issued uniform, including its payroll contribution.",
+    "strNameFriendly": "Cargo Shorts: Khaki",
+    "strType": "Item",
+    "strLoot": "ItmPocketsShortsClipx1Cargox2Hipx2",
+    "aInteractions": [
+      "Inventory",
+      "EquipItem",
+      "DropItem",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds": [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x0.5",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x0.5",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x0.16",
+      "StatBasePrice=1.0x73.0",
+      "StatDamageMax=1.0x2",
+      "StatArmorBlunt=1.0x0.02",
+      "StatArmorCut=1.0x0.1",
+      "IsCategoryTextiles=1.0x1",
+      "IsHughes=1.0x1"
+    ],
+    "aSlotsWeHave": [
+      "pocket_ShortsHipL",
+      "pocket_ShortsHipR",
+      "pocket_ShortsClip01",
+      "pocket_cargoShorts01",
+      "pocket_cargoShorts02"
+    ],
+    "dictSlotsLayout": {
+      "pocket_ShortsHipL": { "x": 18.0, "y": -9.0, "z": 0.0 },
+      "pocket_ShortsHipR": { "x": 36.0, "y": -9.0, "z": 0.0 },
+      "pocket_ShortsClip01": { "x": 0.0, "y": 0.0, "z": 0.0 },
+      "pocket_cargoShorts01": { "x": 0.0, "y": -27.0, "z": 0.0 },
+      "pocket_cargoShorts02": { "x": 36.0, "y": -27.0, "z": 0.0 }
+    },
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+      "Melee", "MeleeAttackDefault",
+      "Normal", "WearAndTearDefault"
+    ],
+    "aUpdateCommands": [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "paperdoll/clothing/portSpaceTruckerShortsHughes_S01_B02_C01",
+    "strAudioEmitter": "ItmClothGeneralSound",
+    "mapSlotEffects": [
+      "pants_mid", "BodySpaceTruckerShortsHughes_S01_B02_C01",
+      "heldL", "HeldItmDefaultSoftL",
+      "heldR", "HeldItmDefaultSoftR"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "PocketShortsHip01",
+    "strNameShort": "Pocket",
+    "strItemDef": "Blank",
+    "strDesc": "A hip pocket on shorts.",
+    "strNameFriendly": "Hip Pocket",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 1,
+    "aInteractions": [],
+    "aStartingConds": ["IsContainer=1.0x1", "IsSystem=1.0x1"],
+    "bSlotLocked": true,
+    "strContainerCT": "TIsFitContainerPocket",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapPoints": [],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "blank",
+    "mapSlotEffects": [
+      "pocket_ShortsHipL", "Blank",
+      "pocket_ShortsHipR", "Blank"
+    ],
+    "jsonPI": null
+  },
+  {
+    "strName": "PocketShortsClipPoint01",
+    "strNameShort": "Clip Point",
+    "strItemDef": "Blank",
+    "strDesc": "A loop for affixing items by snaplinks. Useful for easy access to tools or tethers.",
+    "strNameFriendly": "Clip Point",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 1,
+    "aInteractions": [],
+    "aStartingConds": ["IsContainer=1.0x1", "IsSystem=1.0x1"],
+    "bSlotLocked": true,
+    "strContainerCT": "TIsFitContainerClippable",
+    "nContainerHeight": 1,
+    "nContainerWidth": 1,
+    "mapPoints": [],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "blank",
+    "mapSlotEffects": ["pocket_ShortsClip01", "Blank"],
+    "jsonPI": null
+  },
+  {
+    "strName": "PocketShortsCargo01",
+    "strNameShort": "Cargo Pocket",
+    "strItemDef": "Blank",
+    "strDesc": "A roomy pocket on cargo shorts.",
+    "strNameFriendly": "Cargo Pocket",
+    "strType": "Item",
+    "strLoot": null,
+    "nStackLimit": 1,
+    "aInteractions": [],
+    "aStartingConds": ["IsContainer=1.0x1", "IsSystem=1.0x1"],
+    "bSlotLocked": true,
+    "strContainerCT": "TIsFitContainerPocket",
+    "nContainerHeight": 1,
+    "nContainerWidth": 2,
+    "mapPoints": [],
+    "mapGUIPropMaps": null,
+    "strPortraitImg": "blank",
+    "mapSlotEffects": [
+      "pocket_cargoShorts01", "Blank",
+      "pocket_cargoShorts02", "Blank"
+    ],
+    "jsonPI": null
+  }
+]

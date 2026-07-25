@@ -1,0 +1,24 @@
+[
+  {
+    "strName": "ItmSpaceTruckerHatWarriors_S01_B00_C01",
+    "aCOs": ["ItmSpaceTruckerHatWarriors_S01_B00_C01=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "COND_SpaceTruckerHatWarriors_Apply",
+    "aCOs": [
+        "StatBodyInsulation=1.0x0.1" // IsFanBreakoutWarriors=1.0x1
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "COND_SpaceTruckerHatWarriors_Remove",
+    "aCOs": [
+        "-StatBodyInsulation=1.0x0.1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  }
+]

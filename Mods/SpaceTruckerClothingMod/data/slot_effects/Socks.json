@@ -1,0 +1,51 @@
+[
+{
+    "strName" : "BodySpaceTruckerSocksCompression_L",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerSocksCompression_S01_B02_C01_L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : "SLOT_SpaceTruckerSocksCompression",
+    "strIAUnslot" : "UNSLOT_SpaceTruckerSocksCompression",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+      "Outfit01","MeshTex_Outfit01_Sock01_C01_L:MeshTex_Outfit01_Sock01_L_n"
+    ]
+  },
+  {
+    "strName" : "BodySpaceTruckerSocksCompression_R",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerSocksCompression_S01_B02_C01_R",
+    "strSlotImageUnder" : null,
+    "strIASlot" : "SLOT_SpaceTruckerSocksCompression",
+    "strIAUnslot" : "UNSLOT_SpaceTruckerSocksCompression",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+      "Outfit01","MeshTex_Outfit01_Sock01_C01_R:MeshTex_Outfit01_Sock01_R_n"
+    ]
+  },
+    {
+    "strName" : "HeldItmSpaceTruckerSocksCompression_S01_B02_C01_L",
+    "strSlotImage" : "paperdoll/held/bodySpaceTruckerSocksCompression_S01_B02_C01_L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultSoftL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultSoftL",
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmSpaceTruckerSocksCompression_S01_B02_C01_R",
+    "strSlotImage" : "paperdoll/held/bodySpaceTruckerSocksCompression_S01_B02_C01_R",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultSoftR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultSoftR",
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  }
+]

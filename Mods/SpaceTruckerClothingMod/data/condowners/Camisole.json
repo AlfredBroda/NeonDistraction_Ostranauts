@@ -1,0 +1,99 @@
+[
+{
+    "strName" : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strNameShort" : "Camisole: Hooch Burgundy (Size Small)",
+    "strItemDef" : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strDesc" : "A Weber branded lightweight, body-hugging camisole.\n\nHooch Burgundy became a popular spacer's choice, named after the alarming tint of illicitly distilled spirits using standard engineering room facilities.",
+    "strNameFriendly" : "Camisole: Hooch Burgundy (Size Small)",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "EquipItem",
+      "LoosenClothing",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatMass=1.0x0.10",
+      "StatBasePrice=1.0x87.0",
+      "StatDamageMax=1.0x3",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.1",
+      "IsCategoryTextiles=1.0x1",
+      "IsWeber=1.0x1",
+      "IsNSBreastSizeMatters=1.0x1" // Compatibility with NS through /conditions_simple/IsHughes.json
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
+    "mapSlotEffects" : [
+      "shirt_in","BodySpaceTruckerCamisoleWeber",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ]
+  },
+  {
+    "strName" : "ItmSpaceTruckerCamisoleWeber_S01_B01_C01",
+    "strNameShort" : "Tank Top: Hooch Burgundy (Size Large)",
+    "strItemDef" : "ItmSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strDesc" : "A Weber branded lightweight, body-hugging tank top.\n\nHooch Burgundy became a popular spacer's choice, named after the alarming tint of illicitly distilled spirits using standard engineering room facilities.",
+    "strNameFriendly" : "Tank Top: Hooch Burgundy (Size Large)",
+    "strType"    : "Item",
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+      "EquipItem",
+      "LoosenClothing",
+      "DropItem",
+      "DropItemStack",
+      "PickupItem",
+      "PickupItemStack"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatMass=1.0x0.10",
+      "StatBasePrice=1.0x87.0",
+      "StatDamageMax=1.0x3",
+      "StatArmorBlunt=1.0x0.05",
+      "StatArmorCut=1.0x0.1",
+      "IsCategoryTextiles=1.0x1",
+      "IsWeber=1.0x1"
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerCamisoleWeber_S01_B01_C01",
+    "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
+    "mapSlotEffects" : [
+      "shirt_in","BodySpaceTruckerCamisoleWeber_Large",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ]
+  }
+]

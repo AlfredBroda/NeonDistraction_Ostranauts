@@ -1,0 +1,12 @@
+[
+    { 
+        "strName" : "HeadphonesToggleLights", 
+        "strNameFriendly" : "(Headphones) Toggle: Indicator Light",
+        "strColor" : "Neutral",  
+        "strDesc"  : "Enables Headphones Indicator Light Toggle.", 
+        "nDisplaySelf" : 2, 
+        "nDisplayOther" : 2, 
+        "bFatal" : false, 
+        "aNext" : [ ], 
+        "fDuration" : 0.0 }
+]

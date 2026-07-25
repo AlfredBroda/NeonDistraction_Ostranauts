@@ -1,0 +1,59 @@
+[
+  {
+    "strName": "SLOT_SpaceTruckerBootKompart",
+    "strTitle": "Wear",
+    "strDesc": "[us] puts on [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerBootKompart_Apply",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName": "UNSLOT_SpaceTruckerBootKompart",
+    "strDesc": "[us] is unslotted from [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerBootKompart_Remove",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName" : "SLOT_SpaceTruckerBootKompartWrong",
+    "strDesc" : "[us] is slotted on [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : null,
+    "LootCondsThem"       : "COND_SpaceTruckerBootKompartWrong_Apply",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  },
+  {
+    "strName" : "UNSLOT_SpaceTruckerBootKompartWrong",
+    "strDesc" : "[us] is unslotted from [them].",
+    "aInverse"          : [
+    ],
+    "strThemType"       : "Other",
+    "nLogging"         : 0,
+    "bOpener"  :true,
+    "LootCondsUs"         : null,
+    "LootCondsThem"       : "COND_SpaceTruckerBootKompartWrong_Remove",
+    "CTTestUs"          : null,
+    "CTTestThem"        : "TIsHuman",
+    "aLootItms"         : [
+    ]
+  }
+]

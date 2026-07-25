@@ -1,0 +1,31 @@
+// atcTowerDock01a
+// atcShipClose02
+// atcShipClose02a
+// atcShipDeep01
+// atcShipDeep01a
+// atcShipDock02
+// atcShipDock02a
+// atcTowerClose01
+// atcTowerClose01a
+// atcTowerDeep02
+// atcTowerDeep02a
+// atcTowerDock01
+[
+    {
+    "strName" : "ExperimentHeadphones",
+    "strMixerName" : "Character", // "PrefsEffects"
+    "strClipSteady" : "atcTowerDock01a",
+    "strClipTrans" : null,
+    "strFalloffCurve" : "FalloffLogShallowMin20Max500",
+    "strLowPassCurve" : null,
+    "fLoPassFreq"  : 700.0,
+    "fLoPassFreqOccluded"  : 5000.0,
+    "fMinDistance"  : 0.0,
+    "fMaxDistance"  : 35.0,
+    "fSpatialBlend"  : 1.0,
+    "fSteadyDelay"  : 0.0,
+    "fTransDuration"  : 0.2,
+    "fVolumeSteady"  : 0.6,
+    "fVolumeTrans"  : 0.4
+  }
+]

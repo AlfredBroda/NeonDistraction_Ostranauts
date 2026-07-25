@@ -1,0 +1,14 @@
+[
+    {
+    "strName" : "BodySpaceTruckerHatWarriors_C01",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerHatWarriors_S01_B00_C01",
+    "strIASlot" : "SLOT_SpaceTruckerHatWarriors",
+    "strIAUnslot" : "UNSLOT_SpaceTruckerHatWarriors",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+        "Base", "MeshTex_Base_Cap_C01:MeshTex_Base_Cap_n",
+      "EVAHelmet","MeshTex_EVAHelmet_Cap_C01:MeshTex_EVAHelmet_Cap_n"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+    {
+    "strName" : "Headphones1x1Green",
+    "strImg": "lights/ItmLitCeilingGreen",
+    "strColor": "SignalGreen",
+    "fRadius" : 1.0,
+    "ptPos": {
+      "x": 0,
+      "y": 0
+    }
+  }
+]

@@ -1,0 +1,13 @@
+[
+    {
+    "strName" : "BodySpaceTruckerHeadphonesAyotimiwa",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
+    "strIASlot" : "SLOT_SpaceTruckerHeadphonesAyotimiwa",
+    "strIAUnslot" : "UNSLOT_SpaceTruckerHeadphonesAyotimiwa",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+      "EVAHelmet","MeshTex_EVAHelmet_Headphones:MeshTex_EVAHelmet_Headphones_n"
+    ]
+  }
+]

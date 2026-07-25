@@ -1,0 +1,103 @@
+[
+  {
+    "strName": "SLOT_SpaceTruckerHeadphonesAyotimiwa",
+    "strDesc": "[us] is slotted on [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerHeadphonesAyotimiwa_Apply",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName": "UNSLOT_SpaceTruckerHeadphonesAyotimiwa",
+    "strDesc": "[us] is unslotted from [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerHeadphonesAyotimiwa_Remove",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName" : "GUISpaceTruckerHeadphones",
+    "strTitle" : "Headphone Controls",
+    "strDesc" : "[us] [accesses] [them]'s controls.",
+    "strTooltip" : "Accesses target's control panel dials, switches, and signal links.",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 2,
+    "strAnim"           : "Use",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+      "GUISpaceTruckerHeadphonesAllow"
+    ],
+    "fDuration"         : 0.00027,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "bOpener"     : true,
+    "bHumanOnly"     : true,
+    "bIgnoreFeelings" : true,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsHuman",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : null
+  },
+  {
+    "strName" : "GUISpaceTruckerHeadphonesAllow",
+    "strTitle" : "",
+    "strDesc" : "[them] [checks] the controls.",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+    ],
+    "fDuration"         : 1.0,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : "Headphones_Key",
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : null,
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : null
+  },
+  {
+    "strName" : "ACTSpaceTruckerHeadphones",
+    "strTitle" : "TEST",
+    "strDesc" : "[us] TESTS [them].",
+    "strTooltip" : "TEST",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 1,
+    "strAnim"           : "Tablet",
+    "strIdleAnim"       : null,
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.00055,
+    "strThemType"       : "Other",
+    "nLogging"         : 1,
+    "bOpener"     : true,
+    "bHumanOnly" : false,
+    "bIgnoreFeelings" : true,
+    "LootCTsUs"       : "CTACTToggle",
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsHumanAwake",
+    "CTTestThem"         : null,
+    "objLootModeSwitchThem" : null // "ItmJukebox01Random"
+  }
+]

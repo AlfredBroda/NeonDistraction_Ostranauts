@@ -1,0 +1,32 @@
+[
+  {
+    "strName": "bootL_out",
+    "strNameFriendly": "Boot (Left)",
+    "strHitboxImage": "paperdoll/HBbootL",
+    "strIconImage": "paperdoll/HBbootLIcon",
+    "nItems": 1,
+    "nDepth": 10,
+    "fAlignX": 0.0,
+    "fAlignY": 0.0,
+    "bAlignSlot": false,
+    "bHoldSlot": false,
+    "bHide": false,
+    "bCarried": true,
+    "bAllowStacks": false
+  },
+  {
+    "strName": "bootR_out",
+    "strNameFriendly": "Boot (Right)",
+    "strHitboxImage": "paperdoll/HBbootR",
+    "strIconImage": "paperdoll/HBbootRIcon",
+    "nItems": 1,
+    "nDepth": 10,
+    "fAlignX": 0.0,
+    "fAlignY": 0.0,
+    "bAlignSlot": false,
+    "bHoldSlot": false,
+    "bHide": false,
+    "bCarried": true,
+    "bAllowStacks": false
+  }
+]

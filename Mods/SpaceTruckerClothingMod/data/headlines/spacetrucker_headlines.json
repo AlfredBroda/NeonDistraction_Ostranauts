@@ -1,0 +1,27 @@
+[
+    {	"strName" : "Hughes Jovian Retreats",
+        "strDesc" : "Hughes Trans-Jovian Liner Luxury Cruises to the Outer Planet resorts shuts down even as the famed resorts of Dione, Ganymede and the Junichi Hughes Memorial Resort on XV93 remain populated by high value clientele...",
+        "strRegion" : "Outer System"
+    },
+
+    {   "strName" : "Corporate Uniform PSA",
+        "strDesc" : "Van Hummel tests the legal system by fining employees who partake in the retailoring of issued uniforms to replicate the trends of the now defunct Hughes Spacecraft line of working cargo shorts...",
+        "strRegion" : "Shipping & Inner System"
+    },
+    {   "strName" : "Space Trash or Antique?",
+        "strDesc" : "This week on \"Space Trash or Antique?\", hilarious misunderstandings ensue as an archaic Ayotimiwa Corp T-67 headset is nearly jettisoned by a less than knowledgeable scavenger...",
+        "strRegion" : "Reality Show"
+    },
+    {   "strName" : "Hieronymus Hughes Missing",
+        "strDesc" : "Trillionaire inventor and famous recluse Hieronymus Hughes reported actually missing this time as...",
+        "strRegion" : "Celebrity News"
+    },
+    {   "strName" : "Hughes Trans-Jovian Liner Stockfall",
+        "strDesc" : "As losses continue for Hughes Trans-Jovian Liners (HTJL), its third bankruptcy was declared on January 31...",
+        "strRegion" : "Economics"
+    },
+    {   "strName" : "Ganymede Warriors Merchandise",
+        "strDesc" : "Ganymede Warriors Merchandise now available...",
+        "strRegion" : "Sports"
+    }
+]

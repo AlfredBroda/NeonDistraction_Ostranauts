@@ -1,0 +1,64 @@
+[
+  {
+    "strName": "ItmSpaceTruckerSocksCompression_S01_B02_C01_L",
+    "aCOs": ["ItmSpaceTruckerSocksCompression_S01_B02_C01_L=1x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSpaceTruckerSocksCompression_S01_B02_C01_R",
+    "aCOs": ["ItmSpaceTruckerSocksCompression_S01_B02_C01_R=1x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSpaceTruckerSocksCompression",
+    "aCOs": [
+      "ItmSpaceTruckerSocksCompression_S01_B02_C01_L=1.0x1",
+      "ItmSpaceTruckerSocksCompression_S01_B02_C01_R=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "COND_SpaceTruckerSocksCompression_Apply",
+    "aCOs": [
+      "StatBodyInsulation=1.0x0.2",
+      "-StatSafeTempMax=1.0x2",
+      "-StatSafeTempMin=1.0x3",
+      "-StatHygieneRate=1.0x0.1",
+      "IsWearingCompressionSocks=0.5x1",
+      "-IsBarefoot=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  {
+    "strName": "COND_SpaceTruckerSocksCompression_Remove",
+    "aCOs": [
+      "-StatBodyInsulation=1.0x0.2",
+      "StatSafeTempMax=1.0x2",
+      "StatSafeTempMin=1.0x3",
+      "StatHygieneRate=1.0x0.1",
+      "-IsWearingCompressionSocks=0.5x1",
+      "IsBarefoot=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  { 
+    "strName" : "CONDWearingCompressionSocksPer", 
+    "aCOs" : [ 
+      "ThreshStatGrav=1.0x0.03125",
+      "StatBloodHealRate=1.0x0.0011", 
+      "StatWoundHealRate=1.0x0.00125", 
+      "StatInfectionHealRate=1.0x0.000125", 
+      "-StatFatigueCoeff=1.0x0.125", 
+      "ThreshStatEncumbrance=1.0x0.03125", 
+      "-StatFoodRate=1.0x0.0375", 
+      "-StatHydrationRate=1.0x0.0375"
+    ], 
+    "aLoots" : [], 
+    "strType" : "condition" 
+  }  // CONDWearingCompressionSocksPer is CONDHypovolemic2Per*0.25 = { "strName" : "CONDHypovolemic2Per", "aCOs" : [ "-StatBloodHealRate=1.0x0.0044", "-StatWoundHealRate=1.0x0.005", "-StatInfectionHealRate=1.0x0.0005", "StatFatigueCoeff=1.0x0.5", "StatSafeTempMin=1.0x2.78", "-StatPassiveRewarmTemp=1.0x0.56", "-ThreshStatEncumbrance=1.0x0.125", "StatFoodRate=1.0x0.15", "StatHydrationRate=1.0x0.15" ], "aLoots" : [], "strType" : "condition" },
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "strName" : "IsWearingCompressionSocks", 
+        "strNameFriendly" : "Benefitting from Compression Socks", 
+        "strColor" : "Neutral",  
+        "strDesc"  : "[us] [is] wearing compression socks designed to prevent deep vein thrombosis.", 
+        "nDisplaySelf" : 2, 
+        "nDisplayOther" : 2, 
+        "fDuration" : 0.0, 
+        "aPer" : [ "CONDWearingCompressionSocksPer" ]  
+    }
+]

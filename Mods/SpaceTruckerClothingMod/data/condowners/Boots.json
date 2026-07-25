@@ -1,0 +1,102 @@
+[
+    {
+    "strName" : "ItmSpaceTruckerBootKompart_L",
+    "strNameShort" : "Boot L",
+    "strItemDef" : "ItmSpaceTruckerBootKompart_S01_B02_C01_L",
+    "strDesc" : "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",
+    "strNameFriendly" : "Boot: Black Wing \"Carbide Capped\" (Left)",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 1,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsBlackWing=1.0x1.0",
+      "IsShoe=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatMass=1.0x4.0",
+      "StatBasePrice=1.0x200.0",
+      "StatDamageMax=1.0x5",
+      "StatArmorBlunt=1.0x0.3",
+      "StatArmorCut=1.0x0.4",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerBootKompart_S01_B02_C01_L",
+    "strAudioEmitter" : "ItmShoeSound",
+    "mapSlotEffects" : [
+      "bootL_out","BodySpaceTruckerBootKompart_L",
+      "bootR_out","BodySpaceTruckerBootKompart_RWrong",
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmSpaceTruckerBootKompart_R",
+    "strNameShort" : "Boot R",
+    "strItemDef" : "ItmSpaceTruckerBootKompart_S01_B02_C01_R",
+    "strDesc" : "An insulated, anti-corrosive, Venusian Lifter grade work boot with a carbide toe cap.\n\nGrowing in popularity, especially among Newcal Lifters where, ironically, the sharp finish of the carbide cap have left considerable impressions on many a would be pirate.\n\nNote: Black Wing accepts no liability for injuries to the user or others resulting from the use of this product.",
+    "strNameFriendly" : "Boot: Black Wing \"Carbide Capped\" (Right)",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 1,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsBlackWing=1.0x1.0",
+      "IsShoe=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsFlexible=1.0x1.0",
+      "IsTempInsulator=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsPocketable=1.0x1.0",
+      "StatMass=1.0x4.0",
+      "StatBasePrice=1.0x200.0",
+      "StatDamageMax=1.0x5",
+      "StatArmorBlunt=1.0x0.3",
+      "StatArmorCut=1.0x0.4",
+      "IsCategoryTextiles=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerBootKompart_S01_B02_C01_R",
+    "strAudioEmitter" : "ItmShoeSound",
+    "mapSlotEffects" : [
+      "bootR_out","BodySpaceTruckerBootKompart_R",
+      "bootL_out","BodySpaceTruckerBootKompart_LWrong",
+      "heldL","HeldItmDefaultL",
+      "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : null
+  }
+]

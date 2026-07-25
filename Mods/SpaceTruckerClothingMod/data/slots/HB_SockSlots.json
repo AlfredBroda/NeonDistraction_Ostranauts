@@ -1,0 +1,32 @@
+[
+  {
+    "strName": "sockL_in",
+    "strNameFriendly": "Sock (Left)",
+    "strHitboxImage": "paperdoll/HBsockL",
+    "strIconImage": "paperdoll/HBsockLIcon",
+    "nItems": 1,
+    "nDepth": 6,
+    "fAlignX": 0.0,
+    "fAlignY": 0.0,
+    "bAlignSlot": false,
+    "bHoldSlot": false,
+    "bHide": false,
+    "bCarried": true,
+    "bAllowStacks": false
+  },
+  {
+    "strName": "sockR_in",
+    "strNameFriendly": "Sock (Right)",
+    "strHitboxImage": "paperdoll/HBsockR",
+    "strIconImage": "paperdoll/HBsockRIcon",
+    "nItems": 1,
+    "nDepth": 6,
+    "fAlignX": 0.0,
+    "fAlignY": 0.0,
+    "bAlignSlot": false,
+    "bHoldSlot": false,
+    "bHide": false,
+    "bCarried": true,
+    "bAllowStacks": false
+  }
+]

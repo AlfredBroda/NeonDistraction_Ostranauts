@@ -1,0 +1,14 @@
+[
+  {
+    "strName": "ItmSpaceTruckerCamisoleWeber_S01_B02_C01",
+    "aCOs": ["ItmSpaceTruckerCamisoleWeber_S01_B02_C01=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmSpaceTruckerCamisoleWeber_S01_B01_C01",
+    "aCOs": ["ItmSpaceTruckerCamisoleWeber_S01_B01_C01=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  }
+]

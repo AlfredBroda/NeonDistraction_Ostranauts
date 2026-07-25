@@ -1,0 +1,53 @@
+[
+    {
+    "strName" : "ItmSpaceTruckerHatWarriors_S01_B00_C01",
+    "strNameShort" : "Breakout Cap",
+    "strItemDef" : "ItmSpaceTruckerHatWarriors_S01_B00_C01",
+    "strDesc" : "A classic breakout cap.",
+    "strNameFriendly" : "Breakout Cap: Ganymede Warriors",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 1,
+    "aInteractions" : [
+      "EquipItem",
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAbsorbent=1.0x1.0",
+      "IsBurnable=1.0x1.0",
+      "IsCushion=1.0x0.5",
+      "IsFlexible=1.0x1.0",
+      "IsSheet=1.0x1.0",
+      "IsTempInsulator=1.0x0.5",
+      "IsSolid=1.0x1.0",
+      "StatMass=1.0x0.20",
+      "StatBasePrice=1.0x150.0",
+      "StatDamageMax=1.0x2",
+      "StatArmorBlunt=1.0x0.02",
+      "StatArmorCut=1.0x0.1",
+      "IsCategoryTextiles=1.0x1",
+      "IsClippable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapChargeProfiles"  : [
+      "Melee","MeleeAttackDefault",
+      "Normal","WearAndTearDefault"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerHatWarriors_S01_B00_C01",
+    "strAudioEmitter" : "ItmClothGeneralSound",
+    "mapSlotEffects" : [
+      "head_mid","BodySpaceTruckerHatWarriors_C01",
+      "heldL","HeldItmDefaultSoftL",
+      "heldR","HeldItmDefaultSoftR"
+    ],
+    "jsonPI"            : null
+  }
+]

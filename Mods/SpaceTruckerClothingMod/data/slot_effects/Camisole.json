@@ -1,0 +1,26 @@
+[
+{
+    "strName" : "BodySpaceTruckerCamisoleWeber_Small",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerCamisoleWeber_S01_B02_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : "SLOTClothesShirt01",
+    "strIAUnslot" : "UNSLOTClothesShirt01",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+      "Base","MeshTex_Base_Camisole_C01:MeshTex_Base_Camisole_n"
+    ]
+  },
+  {
+    "strName" : "BodySpaceTruckerCamisoleWeber_Large",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerCamisoleWeber_S01_B01_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : "SLOTClothesShirt01",
+    "strIAUnslot" : "UNSLOTClothesShirt01",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+      "Base","MeshTex_Base_Camisole_C01:MeshTex_Base_Camisole_n"
+    ]
+  }
+]

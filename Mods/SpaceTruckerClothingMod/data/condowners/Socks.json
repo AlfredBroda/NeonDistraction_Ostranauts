@@ -1,0 +1,96 @@
+[
+    {
+        "strName" : "SpaceTruckerSocksCompression_L", // <-- cooverlays NOTUSING
+        "strNameShort" : "Compression Sock",
+        "strNameFriendly": "Left Compression Sock (Size Small)",
+        "strType" : "Item",
+        "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_L", // <-- items
+        "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.\n\nSize Small",
+        "nStackLimit" : 10,
+        "aInteractions" : [
+            "EquipItem",
+            "DropItem",
+            "DropItemStack",
+            "PickupItem",
+            "PickupItemStack"
+        ],
+        "aStartingConds" : [
+            "IsAbsorbent=1.0x1.0",
+            "IsBurnable=1.0x1.0",
+            "IsCushion=1.0x1.0",
+            "IsFlexible=1.0x1.0",
+            "IsSheet=1.0x1.0",
+            "IsTempInsulator=1.0x1.0",
+            "IsSolid=1.0x1.0",
+            "IsPocketable=1.0x1.0",
+            "StatMass=1.0x0.05",
+            "StatBasePrice=1.0x87.0",
+            "StatDamageMax=1.0x3",
+            "StatArmorBlunt=1.0x0.05",
+            "StatArmorCut=1.0x0.1",
+            "IsCategoryTextiles=1.0x1"
+        ],
+        "mapChargeProfiles"  : [
+            "Melee","MeleeAttackDefault",
+            "Normal","WearAndTearDefault"
+        ],
+        "aUpdateCommands" : [
+            "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+        ],
+        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerSocksCompression_S01_B02_C01_L",
+        "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
+        "mapSlotEffects" : [
+        "sockL_in","BodySpaceTruckerSocksCompression_L",
+        "sockR_in","BodySpaceTruckerSocksCompression_R",
+        "heldL","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_L",
+        "heldR","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_R"
+        ]
+    },
+    {
+        "strName" : "SpaceTruckerSocksCompression_R", // <-- cooverlays NOTUSING
+        "strNameShort" : "Compression Sock",
+        "strNameFriendly": "Right Compression Sock (Size Small)",
+        "strType" : "Item",
+        "strItemDef" : "ItmSpaceTruckerSocksCompression_S01_B02_C01_R", // <-- items
+        "strDesc" : "A standard issue flight sock for both warmth and DVT prevention.\n\nSize Small",
+        "nStackLimit" : 10,
+        "aInteractions" : [
+            "EquipItem",
+            "DropItem",
+            "DropItemStack",
+            "PickupItem",
+            "PickupItemStack"
+        ],
+        "aStartingConds" : [
+            "IsAbsorbent=1.0x1.0",
+            "IsBurnable=1.0x1.0",
+            "IsCushion=1.0x1.0",
+            "IsFlexible=1.0x1.0",
+            "IsSheet=1.0x1.0",
+            "IsTempInsulator=1.0x1.0",
+            "IsSolid=1.0x1.0",
+            "IsPocketable=1.0x1.0",
+            "StatMass=1.0x0.05",
+            "StatBasePrice=1.0x87.0",
+            "StatDamageMax=1.0x3",
+            "StatArmorBlunt=1.0x0.05",
+            "StatArmorCut=1.0x0.1",
+            "IsCategoryTextiles=1.0x1"
+        ],
+        "mapChargeProfiles"  : [
+            "Melee","MeleeAttackDefault",
+            "Normal","WearAndTearDefault"
+        ],
+        "aUpdateCommands" : [
+            "Destructable,StatDamage,ACTClothesDestroy,StatDamageMax,1.0"
+        ],
+        "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerSocksCompression_S01_B02_C01_R",
+        "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
+        "mapSlotEffects" : [
+        "sockL_in","BodySpaceTruckerSocksCompression_L",
+        "sockR_in","BodySpaceTruckerSocksCompression_R",
+        "heldL","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_L",
+        "heldR","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_R"
+        ]
+    }
+]

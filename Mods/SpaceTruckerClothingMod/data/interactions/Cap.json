@@ -1,0 +1,28 @@
+[
+  {
+    "strName": "SLOT_SpaceTruckerHatWarriors",
+    "strDesc": "[us] is slotted on [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerHatWarriors_Apply",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  },
+  {
+    "strName": "UNSLOT_SpaceTruckerHatWarriors",
+    "strDesc": "[us] is unslotted from [them].",
+    "aInverse": [],
+    "strThemType": "Other",
+    "nLogging": 0,
+    "bOpener": true,
+    "LootCondsUs": null,
+    "LootCondsThem": "COND_SpaceTruckerHatWarriors_Remove",
+    "CTTestUs": null,
+    "CTTestThem": null,
+    "aLootItms": []
+  }
+]

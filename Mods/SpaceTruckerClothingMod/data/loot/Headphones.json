@@ -1,0 +1,29 @@
+[
+  {
+    "strName": "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
+    "aCOs": ["ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01=1.0x1"],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "COND_SpaceTruckerHeadphonesAyotimiwa_Apply",
+    "aCOs": [
+      "StatPiloting=1.0x0.4",
+      "-StatDefense=1.0x0.06", 
+      "-StatThreat=1.0x3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  },
+  // CONDObliviousPer = "-StatDefense=1.0x0.06", "-StatThreat=1.0x3", "-StatPiloting=1.0x0.1"
+  {
+    "strName": "COND_SpaceTruckerHeadphonesAyotimiwa_Remove",
+    "aCOs": [
+      "-StatPiloting=1.0x0.4",
+      "StatDefense=1.0x0.06", 
+      "StatThreat=1.0x3"
+    ],
+    "aLoots": [],
+    "strType": "condition"
+  }
+]

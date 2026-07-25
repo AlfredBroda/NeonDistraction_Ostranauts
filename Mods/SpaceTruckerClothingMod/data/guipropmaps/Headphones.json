@@ -1,0 +1,13 @@
+[
+      {
+    "strName" : "Headphones_Value",
+    "dictGUIPropMap"       : [
+      "strGUIPrefab", "Headphones_GUIPrefab", // search GUIDockSys
+      "strFriendlyName", "Headphone GUI",
+      "strGUIPrefabRight", null,
+      "strGUIPrefabLeft", null,
+      "strGUIPrefabUp", null,
+      "strGUIPrefabDown", null
+    ]
+  }
+]

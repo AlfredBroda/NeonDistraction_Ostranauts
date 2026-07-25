@@ -1,0 +1,15 @@
+[
+{
+    "strName" : "BodySpaceTruckerShortsHughes_S01_B02_C01",
+    "strSlotImage" : "paperdoll/clothing/bodySpaceTruckerShortsHughes_S01_B02_C01",
+    "strSlotImageUnder" : null,
+    "strIASlot" : "SLOT_SpaceTruckerShortsHughes",
+    "strIAUnslot" : "UNSLOT_SpaceTruckerShortsHughes",
+    "strIASlotParents" : null,
+    "strIAUnslotParents" : null,
+    "mapMeshTextures" : [
+      "Outfit01","MeshTex_Outfit01_Shorts_C01:MeshTex_Outfit01_Shorts_n",
+      "EVA","MeshTex_EVA_Shorts_C01:MeshTex_EVA_Shorts_n"
+    ]
+  }
+]
