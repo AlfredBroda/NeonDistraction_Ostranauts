@@ -2,7 +2,7 @@
   {
     "strName": "Vanilla_SpaceTruckerClothingMod",
     "strAuthor": "NeonDistraction",
-    "strModURL": "https://github.com/Kor-ok/NeonDistraction_Ostranauts/tree/main/Mods/SpaceTruckerClothingMod",
+    "strModURL": "https://github.com/Kor-ok/NeonDistraction_Ostranauts/tree/main/Mods/SpaceTrucker/Vanilla_SpaceTruckerClothingMod",
     "strGameVersion": "0.15.1.17",
     "strModVersion": "0.3",
     "strNotes": "Clothing Assets that mimic the concept art Space Trucker by Charlie Martin. Known Issues: New Sock and Boot body slots don't exclude vanilla items like Shoes etc, Crew2 Body Slots and Kiosk item spawns are overwritten. "
