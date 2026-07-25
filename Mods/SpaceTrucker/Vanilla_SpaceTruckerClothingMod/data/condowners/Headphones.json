@@ -4,7 +4,7 @@
     "strNameShort" : "Headphones",
     "strItemDef" : "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01",
     "strDesc" : "Ayotimiwa Corp tactical headset originally distributed to Port Authority traffic controllers.\n\nNo longer manufactured, but still in circulation.",
-    "strNameFriendly" : "Headphones",
+    "strNameFriendly" : "Ayotimiwa Headphones",
     "strType"    : "Item",
     "strLoot"    : null,
     "nStackLimit"    : 1,
