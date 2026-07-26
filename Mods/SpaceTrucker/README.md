@@ -14,13 +14,10 @@
 spawn AllSpaceTruckerItems
 ```
 
-## Items
-
 | Ayotimiwa Headphones ||
 |-|-|
 | <img alt="Ayotimiwa Headphones icon" src="Vanilla_SpaceTruckerClothingMod/images/paperdoll/clothing/portSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png" width="150"> | <ul><li>+StatPiloting = 1.0x0.4</li><li>-StatDefense = 1.0x0.06</li><li>-StatThreat = 1.0x3</li></ul> |
 || `spawn ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01` |
 | Breakout Cap: Ganymede Warriors ||
-|-|-|
 | <img alt="Ganymede Warriors cap icon" src="Vanilla_SpaceTruckerClothingMod/images/paperdoll/clothing/portSpaceTruckerHatWarriors_S01_B00_C01.png" width="150"> | _TODO_ |
 || `spawn ItmSpaceTruckerHatWarriors_S01_B00_C01` |
