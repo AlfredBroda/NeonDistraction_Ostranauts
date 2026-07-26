@@ -1,11 +1,21 @@
 [
     {
-    "strName": "AllSpaceTruckerItems", 
-    "aCOs": [
-        "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01=1.0x1",
-        "ItmSpaceTruckerCamisoleWeber_S01_B02_C01=1.0x1"
-    ],
-    "aLoots": [],
-    "strType": "item"
-  }
+        "strName": "AllSpaceTruckerItems",
+        "aCOs": [
+            "ItmSpaceTruckerBootKompart_S01_B02_C01_L=1.0x1",
+            "ItmSpaceTruckerBootKompart_S01_B02_C01_R=1.0x1",
+            "ItmSpaceTruckerBootKompart=1.0x1",
+            "ItmSpaceTruckerCamisoleWeber_S01_B02_C01=1.0x1",
+            "ItmSpaceTruckerCamisoleWeber_S01_B01_C01=1.0x1",
+            "ItmSpaceTruckerHatWarriors_S01_B00_C01=1.0x1",
+            "ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01=1.0x1",
+            "ItmSpaceTruckerShortsHughes_S01_B02_C01=1.0x1",
+            "ItmSpaceTruckerSocksCompression_S01_B02_C01_L=1.0x1",
+            "ItmSpaceTruckerSocksCompression_S01_B02_C01_R=1.0x1",
+            "ItmSpaceTruckerSocksCompression=1.0x1"
+        ],
+        "aLoots": [
+        ],
+        "strType": "item"
+    }
 ]
