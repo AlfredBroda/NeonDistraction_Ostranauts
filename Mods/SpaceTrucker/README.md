@@ -8,55 +8,20 @@
 >+ New Sock and Boot body slots don't exclude vanilla items like Shoes etc
 >+ Crew2 Body Slots and Kiosk item spawns are overwritten.
 
-Spawn Codes:
-```
+## Spawn All Items
+
+```text
 spawn AllSpaceTruckerItems
 ```
 
+## Items
 
-<table>
-<tr>
-<td>
+| Ayotimiwa Headphones ||
+|-|-|
+| <img alt="Ayotimiwa Headphones icon" src="Vanilla_SpaceTruckerClothingMod/images/paperdoll/clothing/portSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png" width="150"> | <ul><li>+StatPiloting = 1.0x0.4</li><li>-StatDefense = 1.0x0.06</li><li>-StatThreat = 1.0x3</li></ul> |
+|| `spawn ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01` |
 
-
-#### Ayotimiwa Headphones
-
-
-<picture>
-  <img alt="Item Icon"
-       src="Vanilla_SpaceTruckerClothingMod\images\paperdoll\clothing\portSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01.png"
-       width=150
-       object-fit: contain
-       style="image-rendering: pixelated;" >
-</picture>
-
-</td>
-<td>
-
-```
-spawn ItmSpaceTruckerHeadphonesAyotimiwa_S01_B00_C01
-```
-
-* +StatPiloting =1.0x0.4
-* -StatDefense  =1.0x0.06 
-* -StatThreat   =1.0x3
-
-</td>
-</tr>
-<tr>
-<td>
-
-
-#### Breakout Cap: Ganymede Warriors
-
-
-<picture>
-  <img alt="Item Icon"
-       src="Vanilla_SpaceTruckerClothingMod\images\paperdoll\clothing\portSpaceTruckerHatWarriors_S01_B00_C01.png"
-       width=150
-       object-fit: contain
-       style="image-rendering: pixelated;" >
-</picture></td>
-<td>List Effects</td>
-</tr>
-</table>
+| Breakout Cap: Ganymede Warriors ||
+|-|-|
+| <img alt="Ganymede Warriors cap icon" src="Vanilla_SpaceTruckerClothingMod/images/paperdoll/clothing/portSpaceTruckerHatWarriors_S01_B00_C01.png" width="150"> | _TODO_ |
+|| `spawn ItmSpaceTruckerHatWarriors_S01_B00_C01` |
