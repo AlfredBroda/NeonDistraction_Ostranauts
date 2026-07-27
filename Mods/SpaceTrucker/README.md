@@ -1,8 +1,6 @@
 # Space Trucker Clothing Mod
 **Clothing Assets that mimic the concept art [Space Trucker by Charlie Martin](https://ostranauts.wiki.gg/index.php?curid=4382").**
-<p align="center">
-  <img alt="Space Trucker" src="https://ostranauts.wiki.gg/images/thumb/Space_Trucker_1440.png/640px-Space_Trucker_1440.png?ddae80">
-</p>
+![Space Trucker](https://ostranauts.wiki.gg/images/thumb/Space_Trucker_1440.png/640px-Space_Trucker_1440.png)
 
 [Download Mod Folder Zipped](https://download-directory.github.io/?url=https://github.com/Kor-ok/NeonDistraction_Ostranauts/tree/main/Mods/SpaceTrucker)
 
