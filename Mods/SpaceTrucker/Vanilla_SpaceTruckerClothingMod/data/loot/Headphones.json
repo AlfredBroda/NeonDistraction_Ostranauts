@@ -6,7 +6,7 @@
     "strType": "item"
   },
   {
-    "strName": "COND_SpaceTruckerHeadphonesAyotimiwa_Apply",
+    "strName": "CONDSpaceTruckerHeadphonesAyotimiwaApply",
     "aCOs": [
       "StatPiloting=1.0x0.4",
       "-StatDefense=1.0x0.06", 
@@ -15,9 +15,8 @@
     "aLoots": [],
     "strType": "condition"
   },
-  // CONDObliviousPer = "-StatDefense=1.0x0.06", "-StatThreat=1.0x3", "-StatPiloting=1.0x0.1"
   {
-    "strName": "COND_SpaceTruckerHeadphonesAyotimiwa_Remove",
+    "strName": "CONDSpaceTruckerHeadphonesAyotimiwaRemove",
     "aCOs": [
       "-StatPiloting=1.0x0.4",
       "StatDefense=1.0x0.06", 

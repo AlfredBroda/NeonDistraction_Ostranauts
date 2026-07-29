@@ -7,7 +7,7 @@
     "nLogging": 0,
     "bOpener": true,
     "LootCondsUs": null,
-    "LootCondsThem": "COND_SpaceTruckerHeadphonesAyotimiwa_Apply",
+    "LootCondsThem": "CONDSpaceTruckerHeadphonesAyotimiwaApply",
     "CTTestUs": null,
     "CTTestThem": null,
     "aLootItms": []
@@ -20,7 +20,7 @@
     "nLogging": 0,
     "bOpener": true,
     "LootCondsUs": null,
-    "LootCondsThem": "COND_SpaceTruckerHeadphonesAyotimiwa_Remove",
+    "LootCondsThem": "CONDSpaceTruckerHeadphonesAyotimiwaRemove",
     "CTTestUs": null,
     "CTTestThem": null,
     "aLootItms": []
