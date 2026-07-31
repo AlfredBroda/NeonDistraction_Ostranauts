@@ -99,5 +99,55 @@
     "CTTestUs"           : "TIsHumanAwake",
     "CTTestThem"         : null,
     "objLootModeSwitchThem" : null // "ItmJukebox01Random"
+  },
+    {
+    "strName" : "GUIHeadphones",
+    "strTitle" : "Control Panel",
+    "strDesc" : "[us] [accesses] [them]'s panel.",
+    "strTooltip" : "Accesses target's control panel dials, switches, and signal links.",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 1,
+    "strAnim"           : "Use",
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+      "GUIHeadphonesAllow"
+    ],
+    "fDuration"         : 0.00027,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"         : 1,
+    "bOpener"     : true,
+    "bHumanOnly"     : true,
+    "bIgnoreFeelings" : true,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsHumanAwake",
+    "CTTestThem"         : "TIsHeadphones",
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : null
+  },
+  {
+    "strName" : "GUIHeadphonesAllow",
+    "strTitle" : "",
+    "strDesc" : "[them] [checks] the wiring.",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : "BblTouch",
+    "aInverse"          : [
+    ],
+    "fDuration"         : 1.0,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : "Panel A",
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : null,
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : null
   }
 ]

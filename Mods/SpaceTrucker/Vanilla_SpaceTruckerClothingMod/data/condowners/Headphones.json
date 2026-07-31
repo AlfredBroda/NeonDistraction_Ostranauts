@@ -27,7 +27,8 @@
       "StatDamageMax=1.0x7",
       "StatDismantleProgressMax=1.0x10",
       "StatArmorBlunt=1.0x1.0",
-      "StatArmorCut=1.0x1.5"
+      "StatArmorCut=1.0x1.5",
+      "IsHeadphones=1.0x1.0"
       // "IsLightSource=1.0x1" Apply when worn?
     ],
     "mapCondTolerance"       : [

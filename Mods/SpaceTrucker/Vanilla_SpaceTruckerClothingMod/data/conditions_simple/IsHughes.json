@@ -5,7 +5,8 @@
 		// [strName], [strNameFriendly], [strDesc], [nDisplaySelf], [nDisplayOther], [strColor], [bInvert]
       
       "IsHughes","Hughes","[us] [is] a Hughes Spacecraft brand item.","2","2","Neutral","false",
-      
+      "IsHeadphones","Headphones","[us] [is] a headphone set.","2","2","Neutral","false",
+
     // Project New Skins compatibility conditions
     
         "IsNewSkin","New Skin Item","[us] is an New Skin Modded Item.","0","0","Neutral","false",
