@@ -1,0 +1,26 @@
+[
+    // The following won't play nice with other mods, unless the FUU version is used.
+  {
+    "strName" : "ItmOKLGSupplyKioskInv",
+    "aLoots"  : [
+      "ItmSpaceTruckerSocksCompression=1.0x1-10",
+      "ItmSpaceTruckerBootKompart=0.8x1-3"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmTraderSanDiegoClothesInv",
+    "aLoots"  : [
+      "ItmSpaceTruckerSocksCompression=1.0x1-10",
+      "ItmSpaceTruckerBootKompart=0.8x1-3"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmTraderSanDiegoBlackWingInv",
+    "aLoots"  : [
+      "ItmSpaceTruckerBootKompart=1.0x25"
+    ],
+    "strType" : "item"
+  }
+]

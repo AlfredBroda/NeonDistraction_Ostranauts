@@ -8,7 +8,7 @@
     "strIASlotParents" : null,
     "strIAUnslotParents" : null,
     "mapMeshTextures" : [
-      "Base","MeshTex_Base_Camisole_C01:MeshTex_Base_Camisole_n"
+      "Outfit01","MeshTex_Base_Camisole_C01:MeshTex_Base_Camisole_n"
     ]
   },
   {
@@ -20,7 +20,7 @@
     "strIASlotParents" : null,
     "strIAUnslotParents" : null,
     "mapMeshTextures" : [
-      "Base","MeshTex_Base_Camisole_C01:MeshTex_Base_Camisole_n"
+      "Outfit01","MeshTex_Base_Camisole_C01:MeshTex_Base_Camisole_n"
     ]
   }
 ]

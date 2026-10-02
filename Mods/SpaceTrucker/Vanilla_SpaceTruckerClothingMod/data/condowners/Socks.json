@@ -40,8 +40,8 @@
         "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerSocksCompression_S01_B02_C01_L",
         "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
         "mapSlotEffects" : [
-        "sockL_in","BodySpaceTruckerSocksCompression_L",
-        "sockR_in","BodySpaceTruckerSocksCompression_R",
+        "NewSkinSockL_in","BodySpaceTruckerSocksCompression_L",
+        "NewSkinSockR_in","BodySpaceTruckerSocksCompression_R",
         "heldL","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_L",
         "heldR","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_R"
         ]
@@ -87,8 +87,8 @@
         "strPortraitImg"  : "paperdoll/clothing/portSpaceTruckerSocksCompression_S01_B02_C01_R",
         "strAudioEmitter" : "ItmSoftGeneralDoubleSound",
         "mapSlotEffects" : [
-        "sockL_in","BodySpaceTruckerSocksCompression_L",
-        "sockR_in","BodySpaceTruckerSocksCompression_R",
+        "NewSkinSockL_in","BodySpaceTruckerSocksCompression_L",
+        "NewSkinSockR_in","BodySpaceTruckerSocksCompression_R",
         "heldL","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_L",
         "heldR","HeldItmSpaceTruckerSocksCompression_S01_B02_C01_R"
         ]
